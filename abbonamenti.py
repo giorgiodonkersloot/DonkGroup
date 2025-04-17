@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 
-YOUR_DOMAIN = "http://localhost:5000"  # Cambialo con il tuo dominio su Render
+YOUR_DOMAIN = "https://donkgroup.onrender.com/"  # Cambialo con il tuo dominio su Render
 
 @app.route('/')
 def index():
